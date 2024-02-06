@@ -1,5 +1,82 @@
-@charset 'UTF-8';
+@charset "UTF-8";
 
 body{
-    background-color: black;
+    background-color: #ffffff;
+}
+
+header#cabecalho{
+    
+    background-color: #0a0b0b;
+}
+
+nav.menu{
+    background-color: #0a0b0b;
+    color: #ffffff;
+    width: 100%;
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    border-bottom: 1px solid rgba(255, 255, 255, .15);
+
+    
+}
+
+img {
+    border-style: none;
+}
+
+a {
+    background-color: transparent;
+}
+
+ul.menu-list{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    cursor: pointer;
+    justify-content: space-around;
+    justify-items: start;
+    align-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    max-width: 1600px;
+}
+
+ul.menu-list li.menu-item{ 
+    margin-left: 30px;
+    flex-grow: 1;
+    margin-top: 9px;
+    
+}
+
+ul.menu-list li{
+    flex: 0 0 auto;
+}
+
+a#music-logo{
+    margin-right: 140px;
+}
+
+img.img-icon{
+    display: flex;
+    align-items: normal;
+    justify-content: normal;
+    flex-wrap: nowrap;
+    width: 140px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-inline-start: 0;
+    
+}
+
+
+main{
+    background-color: #0a0b0b;
 }
